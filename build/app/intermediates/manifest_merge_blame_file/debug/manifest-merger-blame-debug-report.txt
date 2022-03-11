@@ -1,0 +1,142 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.redditech"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/debug/AndroidManifest.xml:6:22-64
+15
+16    <queries>
+16-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:3:1-9:15
+17
+18        <!-- If your app opens https URLs -->
+19        <intent>
+19-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:5:7-8:16
+20            <action android:name="android.intent.action.VIEW" />
+20-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:6:9-61
+20-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:6:17-58
+21
+22            <data android:scheme="https" />
+22-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:7:9-40
+22-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:7:15-37
+23        </intent>
+24    </queries>
+25
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->[com.google.android.exoplayer:exoplayer-core:2.14.1] /home/constantin/.gradle/caches/transforms-2/files-2.1/60b85d32c76f6174d43e445a6aa2cefb/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:24:5-79
+26-->[com.google.android.exoplayer:exoplayer-core:2.14.1] /home/constantin/.gradle/caches/transforms-2/files-2.1/60b85d32c76f6174d43e445a6aa2cefb/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:24:22-76
+27
+28    <application
+28-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:10:4-55:19
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.6.0] /home/constantin/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:12:9-43
+32        android:label="Redditech" >
+32-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:11:9-34
+33        <activity android:name="com.linusu.flutter_web_auth.CallbackActivity" >
+33-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:13:9-20:20
+33-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:13:19-78
+34            <intent-filter android:label="flutter_web_auth" >
+34-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:14:11-19:27
+34-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:14:26-58
+35                <action android:name="android.intent.action.VIEW" />
+35-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:6:9-61
+35-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:6:17-58
+36
+37                <category android:name="android.intent.category.DEFAULT" />
+37-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:16:13-72
+37-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:16:23-69
+38                <category android:name="android.intent.category.BROWSABLE" />
+38-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:17:13-74
+38-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:17:23-71
+39
+40                <data android:scheme="radditech.local.app" />
+40-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:7:9-40
+40-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:7:15-37
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:21:9-49:20
+44            android:name="com.example.redditech.MainActivity"
+44-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:22:13-41
+45            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+45-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:25:13-163
+46            android:hardwareAccelerated="true"
+46-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:26:13-47
+47            android:launchMode="singleTop"
+47-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:23:13-43
+48            android:theme="@style/LaunchTheme"
+48-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:24:13-47
+49            android:windowSoftInputMode="adjustResize" >
+49-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:27:13-55
+50
+51            <!--
+52                 Specifies an Android theme to apply to this Activity as soon as
+53                 the Android process has started. This theme is visible to the user
+54                 while the Flutter UI initializes. After that, this theme continues
+55                 to determine the Window background behind the Flutter UI.
+56            -->
+57            <meta-data
+57-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:32:13-35:17
+58                android:name="io.flutter.embedding.android.NormalTheme"
+58-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:33:15-70
+59                android:resource="@style/NormalTheme" />
+59-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:34:15-52
+60            <!--
+61                 Displays an Android View that continues showing the launch screen
+62                 Drawable until Flutter paints its first frame, then this splash
+63                 screen fades out. A splash screen is useful to avoid any visual
+64                 gap between the end of Android's launch screen and the painting of
+65                 Flutter's first frame.
+66            -->
+67            <meta-data
+67-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:41:13-44:17
+68                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+68-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:42:15-79
+69                android:resource="@drawable/launch_background" />
+69-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:43:15-61
+70
+71            <intent-filter>
+71-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:45:13-48:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:46:17-68
+72-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:46:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:47:17-76
+74-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:47:27-74
+75            </intent-filter>
+76        </activity>
+77        <!--
+78             Don't delete the meta-data below.
+79             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+80        -->
+81        <meta-data
+81-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:52:9-54:33
+82            android:name="flutterEmbedding"
+82-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:53:13-44
+83            android:value="2" />
+83-->/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/android/app/src/main/AndroidManifest.xml:54:13-30
+84
+85        <activity
+85-->[:url_launcher_android] /home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+86            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+86-->[:url_launcher_android] /home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+87            android:exported="false"
+87-->[:url_launcher_android] /home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+88            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+88-->[:url_launcher_android] /home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+89    </application>
+90
+91</manifest>

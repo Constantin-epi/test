@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/build/url_launcher_android/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_normal.9.png",
+        "source": "/home/constantin/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/build/url_launcher_android/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/home/constantin/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/build/url_launcher_android/intermediates/res/merged/debug/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/home/constantin/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/build/url_launcher_android/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/home/constantin/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/constantin/ProjectTek3/Redditech/testMax/B-DEV-501-LIL-5-1-redditech-constantin.lenglos/build/url_launcher_android/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/home/constantin/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    }
+]
